@@ -14,3 +14,77 @@
 .debag {
     border: 1px solid black;
 }
+
+.float-left {
+    float: left;
+}
+
+/* PROVA - TEXT */
+* {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+header {
+    background-color: yellow;
+}
+
+.logo.debag {
+    height: 100px;
+    width: 20%;
+    background-color: red;
+}
+
+header nav {
+    height: 100px;
+    width: 50%;
+    background-color: green;
+}
+
+.banner {
+    height: 400px;
+    background-color: blue;
+    position: relative;
+}
+
+.banner-descriction {
+    height: 200px;
+    width: 60%;
+    background-color: orange;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.titolo-principale {
+    height: 100px;
+    background-color: red;
+}
+
+.contenitore-layout {
+    background-color: aqua;
+    width: 100%;
+}
+
+
+.colonna-left {
+    width: 25%;
+    height: 200px;
+}
+
+.parte-centrale{
+    width: 50%;
+    height: 400px;
+}
+
+.colonna-right {
+    width: 25%;
+    height: 200px;
+}
+
+footer {
+    background-color: yellow;
+    height: 100px;
+}
