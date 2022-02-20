@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+body {
+    width: 80%;
+    margin: auto;
+}
+
 .clearfix {
     content: '';
     display: table;
@@ -25,63 +30,103 @@
 
 .colonna-left, .parte-centrale, .colonna-right {
     height: 200px;
-    border-bottom: 10px solid blue;
 }
 
+/* header */
 
-/* PROVA - TEXT */
-* {
-    font-size: 20px;
-    color: white;
-    text-align: center;
+header .contenitore-logo {
+    height: 120px;
 }
 
-
-header .logo.debag{
-    height: 100px;
-    background-color: rgb(255, 0, 255)
+.logo-image {
+    width: 150px;
+    border-right: 1px solid #5b5656;
 }
 
-.logo.debag {
-    height: 100px;
+.contenitore-logo img {
+    width: 120px;
 }
+
 
 header nav {
-    height: 100px;
+    height: 85px;
+    line-height: 85px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    color: rgb(75, 72, 72);
 }
 
 
 .banner {
-    height: 200px;
     margin-top: 20px;
-    background-color: yellow;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+    
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.banner-description {
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    height: 100px;
+    padding: 10px 0;
+   
+}
+
+.banner-description h2 {
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+/* fine - header */
+
+/* Inizio - main */
+main {
+    background-color: blue;
 }
 
 .contenitore-layout {
     height: 200px;
     width: 100%;
+    border-bottom: 10px solid blue;
 }
 
 .titolo-principale {
     margin-top: 20px;
-    border-bottom: 10px solid blue;
-
-}
+    margin-bottom: 10px;
+  }
 
 .colonna-left {
     width: 25%;
 }
 
 .parte-centrale {
-    width: 50%;
-    border-left: 10px solid blue;
+    width: calc(50%);
     border-right: 10px solid blue;
-
+    border-left: 10px solid blue;
 }
 
 .colonna-right {
     width: 25%;
 }
+/* Fine - main */
 
 footer {
     height: 50px;
